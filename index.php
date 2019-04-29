@@ -15,7 +15,7 @@ $(document).ready(function() {
     $('#example').DataTable({"language": {
 	   "decimal":        "",
     "emptyTable":     "Não Há registro a exibir",
-    "info":           "Mostrando _START_ inicio _END_ fim _TOTAL_ da tabela",
+    "info":           "Mostrando barra total _START_ ate _END_ registros _TOTAL_fim ",
     "infoEmpty":      "Mostrando 0 / 0 / 0 ",
     "infoFiltered":   "(filtered from _MAX_ total entries)",
     "infoPostFix":    "",
@@ -66,10 +66,10 @@ background-size: cover;
 <table id="example" class="display" style="width:100%">
             <thead>
                 <tr>
-                    <th><strong><u>ID</strong></u></th>
-                    <th><strong><u>Nome</strong></u></th>
-                    <th><strong><u>Date de Nascimento</strong></u></th>
-					<th><strong><u>Salario</strong></u></th>
+                    <th><font color="orange"><strong><u>ID</strong></u></th>
+                    <th><font color="orange"><strong><u>Nome</strong></u></th>
+                    <th><font color="orange"><strong><u>Date de Nascimento</strong></u></th>
+					<th><font color="orange"><strong><u>Salario</strong></u></th>
                     <th></th>
                     <th></th>
                 </tr>
@@ -103,10 +103,10 @@ background-size: cover;
 
             <tfoot>
                 <tr>
-                    <th>ID</th>
-                    <th>Nome</th>
-                    <th>Data de Nascimento</th>
-					<th>Salario</th>
+                    <th><font color="orange">ID</th>
+                    <th><font color="orange">Nome</th>
+                    <th><font color="orange">Data de Nascimento</th>
+					<th><font color="orange">Salario</th>
                     <th></th>
                     <th></th>
                 </tr>
